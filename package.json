@@ -1,0 +1,16 @@
+{
+  "name": "slack-test",
+  "version": "1.0.0",
+  "description": "testing slack stuffs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "SLACK_BOT_TOKEN='Testin-Token' jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/client": "^3.16.0",
+    "jest": "^22.4.2"
+  }
+}
